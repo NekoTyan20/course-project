@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header-border">
+      <div class="container logo">
+        <nav class="logo">
+          <a class="logo__web" href="/">Mobile<span class="logo--black">Mastery</span></a>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./academy.html">Академія</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./cards.html">Картки</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link site-nav__link--current" href="">Блог</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./videoclasses.html">Уроки</a>
+              </li>
+            </ul>
+
+            <ul class="mobile-win-mail list">
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link mobile-win-mail--phone" href="tel:+380668564237"
+                  >+38 066 856 42 37</a
+                >
+              </li>
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link" href="mailto:zltfefelova@gmai.com"
+                  >zltfefelova@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="social-media list">
+              <li class="social-media__item">
+                <a class="social-media__link" href="">Instagram</a>
+              </li>
+              <li class="social-media__item"><a class="social-media__link" href="">Twitter</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Facebook</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Linkedln</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <ul class="mail-phone-header list">
+          <li class="mail-phone-header__item">
+            <a
+              class="mail-phone-header__link mail-phone-header__icons"
+              href="mailto:zltfefelova@gmail.com"
+            >
+              <svg class="mail-phone-header__first-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope-hover"></use>
+              </svg>
+              zltfefelova@gmail.com
+            </a>
+          </li>
+          <li class="mail-phone-header__item">
+            <a class="mail-phone-header__link mail-phone-header__icons" href="tel:+380668564237">
+              <svg class="mail-phone-header__first-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 066 856 42 37
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="icon-close" href="./images/icons.svg#close"></use>
+            <use class="icon-menu" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section paddong-for-blog">
+        <div class="container">
+          <h1 hidden>Статья4</h1>
+          <article>
+            <a href="./blog.html" class="back-button">&larr; Назад</a>
+            <header>
+              <h2>
+                <a class="divide-title" href="./article4.html"
+                  >Особливості проектування сайтів для мобільних пристроїв</a
+                >
+              </h2>
+              <p><time datetime="2023-04-10T08:00:00Z">10 апреля 2023, 08:00</time></p>
+            </header>
+            <p>
+              Невеликі розміри екранів смартфонів диктують свої умови: якщо ви хочете добитися від
+              користувача цільової дії, перш за все потрібно показати елементи, які призведуть до
+              конверсії...
+            </p>
+            <h2><a class="divide-title" href="#">Акцент на змісті</a></h2>
+            <h3><a class="logo__web" href="#">Зручність для користувача</a></h3>
+            <p>
+              Невеликі розміри екранів смартфонів диктують свої умови: якщо ви хочете досягти від
+              користувача цільової дії, перш за все потрібно показати елементи, які призведуть до
+              конверсії. Визначити, що має відображатися на сторінці сайту, допомагає вивчення user
+              flow. Для різних типів бізнесу можна виявити стандарти поведінки користувачів: навіщо
+              вони приходять на сайт? що шукають? що спростить їхній пошук? яку дію вони виконають
+              після того, як знайдуть потрібне? <br /><br />
+              Наприклад, у діях клієнтів інтернет-магазинів існують такі закономірності:
+            </p>
+            <ul style="list-style-type: circle">
+              <li>вони хочуть знайти товар;</li>
+              <li>фільтри допоможуть їм швидше вибрати потрібне;</li>
+              <li>їм потрібно забезпечити легкий спосіб повернення до кошика.</li>
+            </ul>
+            <p>
+              Мобільна версія сайту Puma має саме такий класичний набір основних елементів, які
+              відповідають очікуванням користувача:
+            </p>
+            <ul style="list-style-type: circle">
+              <li>вгорі екрану розташована панель з кнопками пошуку, кошика та головного меню;</li>
+              <li>
+                картки товару розміщуються у двох колонках, що дає можливість одразу переглядати
+                більше асортименту;
+              </li>
+              <li>є інструменти фільтрації та сортування товарів для спрощеного пошуку;</li>
+              <li>
+                у самому низу сторінки представлені популярні категорії та товарні рекомендації ,
+                які також сприяють вибору.
+              </li>
+            </ul>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/puma.png" alt="Сайт Пума" width="600" />
+              <p class="img-setion__text">Відображення сайту Puma на смартфоні</p> </a
+            ><br /><br />
+            <div class="bordered">
+              <p class="quote-item-title">
+                <strong>Персоналізовані товарні рекомендації</strong> роблять процес покупки на
+                сайті індивідуальним: клієнт бачить те, що відповідає його інтересам і що потенційно
+                готовий купити. В результаті суттєво підвищуються показники конверсії. Це
+                підтверджує наш магазин магазину електронної техніки.
+              </p>
+            </div>
+            <p>
+              Коли ви визначите необхідний мінімум елементів, які допоможуть клієнту здійснити
+              цільову дію, переходьте до додавання додаткового контенту. Для магазину це може бути
+              інформація про доставку, відгуки, контакти і т. д. Puma так ненав'язливо інтегрувала в
+              область перегляду банери про акції, що діють, що вони не переривають сеанс взаємодії,
+              а лише повідомляють користувача, як зробити покупки більш вигідними. <br /><br />
+              Інтерфейс новинних, розважальних та навчальних ресурсів має включати свої обов'язкові
+              тригери. Наприклад, для блогу такими елементами можуть бути кнопки реєстрації,
+              підписки, оцінки статті, форма відправлення коментарів, рекомендовані на тему
+              матеріали… Вдалий приклад такої реалізації – сайт AdMe.ru. У верхній частині сторінки
+              тут розташований рядок з іконками меню, авторизації та підписки (яка зникає при
+              скролі), а нижче – кнопки основних дій зі статтею: оцінка, коментар, збереження у
+              вибране, шерінг. Крім того, під кожною фотографією та наприкінці статті є кнопки
+              соцмереж, які дозволяють моментально поділитися контентом. Ну і насамкінець –
+              наприкінці сторінки відвідувачам пропонують до прочитання інші захоплюючі матеріали,
+              які, напевно, затримають їх на сайті.
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/adme2.png" alt="" width="600" />
+              <p class="img-setion__text">Інтерфейс сайту AdMe на мобільному</p> </a
+            ><br /><br />
+            <h2><a class="divide-title" href="#">Візуальна ієрархія контенту</a></h2>
+            <p>
+              Поліпшити взаємодію користувача з сайтом можна в тому випадку, якщо ви знатимете не
+              тільки що показувати, але і як показувати. Візуальна ієрархія контенту передбачає
+              виділення його найважливіших складових та розташування їх у особливих зонах уваги
+              користувачів смартфонів. При цьому дизайнери можуть скористатися психологічними
+              прийомами, щоб сфокусувати увагу відвідувача на потрібних елементах. <br /><br />
+              На практиці в більшості випадків це виглядає так:
+            </p>
+            <ul style="list-style-type: circle">
+              <li>найбільш важливий контент розташований у центральній частині екрана;</li>
+              <li>
+                елементи другорядної значущості можуть розміщуватися і над, і під основним змістом;
+              </li>
+              <li>
+                найменш пріоритетний, але все ж таки необхідний, контент знаходиться в самій верхній
+                частині сторінки.
+              </li>
+            </ul>
+            <p>
+              Таке розташування елементів можна було помітити на прикладах сайтів Puma та Adme у
+              попередньому пункті.
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/8574878.png" alt="" width="600" />
+              <p class="img-setion__text">Оптимальне розміщення контенту на екрані смартфона</p> </a
+            ><br /><br />
+            <p>
+              Існують і детальніші схеми ергономіки мобільних пристроїв, засновані на "правилі
+              великого пальця". Цей підхід будується на дослідженнях про те, як користувачі тримають
+              смартфон у руці та яким чином керують ними. Виявилося , що 75% людей торкаються
+              дисплея лише одним великим пальцем. Так дослідники сегментували зони екрану мобільних
+              телефонів за простотою взаємодії з ним пальцями. Спочатку у статті 2016 року було
+              запропоновано наступну карту зручності управління:
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/left.png" alt="" width="600" />
+              <p class="img-setion__text">
+                Одна з перших схем простоти керування смартфона за допомогою великого пальця
+              </p> </a
+            ><br /><br />
+            <p>
+              Сьогодні, коли діагональ більшості смартфонів збільшилася, модернізована схема
+              доступності екрана виглядає так:
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/4.png" alt="" width="600" />
+              <p class="img-setion__text">Простота керування пальцями на сучасних смартфонах</p> </a
+            ><br /><br />
+            <p>
+              Такі зміни вже відбилися у тенденціях веб-дизайну. Наочний приклад розглянемо у
+              наступному пункті.
+            </p>
+            <h2><a class="divide-title" href="#">Простота навігації</a></h2>
+            <p>
+              Хороша навігація мобільною версією сайту – річ вимоглива. Вона має забезпечувати
+              ідеальну подорож користувача ресурсом і водночас вміщуватися в компактні елементи
+              інтерфейсу, щоб не відволікати від основного контенту. <br /><br />
+              Багато користувачів уже звикли до стандартного оформлення більшості сайтів та
+              інтуїтивно шукають у рядку кнопку з трьома паралельними горизонтальними лініями. При
+              натисканні іконки відкривається перелік доступних розділів веб-сайту. Класичне
+              меню-гамбургер, як правило, легкодоступне, добре помітне і займає небагато місця на
+              екрані. Утім деякі UX-дизайнери дотримуються думки, що користувачі зазвичай рідко
+              взаємодіють із тим, чого не бачать. Дослідження показали, що прихована навігація
+              збільшує складність пошуку контенту на 21% порівняно зі станом видимої навігації.
+              <br /><br />
+              Альтернативою гамбургерному меню часто стають панелі вкладок (зазвичай вони постійно
+              відображаються на сторінці) та панелі навігації (як правило, зникають при скролі).
+              Мінусом цих варіантів може бути складність відображення всіх опцій, якщо їх багато.
+              Тому дизайнери часто виносять до авангарду панелей найбільш необхідні для користувача
+              елементи, а решту приховують у меню інших типів.
+            </p>
+            <h2><a class="divide-title" href="#">User-friendly інтерфейс</a></h2>
+            <p>
+              Турбота про зручність користувача під час серфінгу на сайті – ще один обов'язковий
+              атрибут концепції Mobile First. Забезпечивши добре опрацьований UX, можна
+              розраховувати на повторні відвідування клієнта у майбутньому. статті ми вже навели
+              чимало статистичних даних, і ось іще один важливий факт: 48% респондентів вважають
+              простоту використання мобільного сайту його найважливішою якістю.<br /><br />
+              Під час проектування інтерфейсу, орієнтованого на мобільні, треба враховувати не лише
+              обмежений простір дисплея, але й інші особливості використання смартфона, наприклад
+              керування через Touch-скрін. Нижче ми наведемо основні принципи, які забезпечують
+              успішний досвід взаємодії з мобільною версією сайту.
+            </p>
+            <h3>
+              <a class="logo__web" href="#">Адаптація контенту до ширини області перегляду</a>
+            </h3>
+            <p>
+              На десктопі є широке горизонтальне поле для візуалізації контенту: можна
+              використовувати кілька стовпчиків, оформляти ефектні вітрини та розкладки. На
+              мобільних пристроях, де екран суттєво вужчий, основна дія під час перегляду сторінок –
+              прокручування вгору-вниз. Оптимальний варіант для відображення контенту – 1-2 колонки,
+              а якщо треба розмістити елементи горизонтально – забезпечте їхній перегляд простим
+              свайпом одним пальцем.
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/67895.png" alt="" width="600" />
+              <p class="img-setion__text">
+                Різниця розміщення контенту на десктопі та на мобільному
+              </p> </a
+            ><br /><br />
+            <h3><a class="logo__web" href="#">Правильна типографіка</a></h3>
+            <p>
+              Щоб користувач не напружував зір під час перегляду сторінки, текст має бути
+              достатнього розміру і водночас не займати пів екрана. Для мобільних версій сайтів
+              рекомендується застосовувати шрифт не менший ніж 12 px, а як основний вибрати 14-16
+              px. Крім того, використання більше ніж трьох шрифтів на сторінці може сповільнювати її
+              завантаження, а це вже суперечить основам Mobile-First.
+            </p>
+            <h3><a class="logo__web" href="#">Орієнтація на сенсорне керування</a></h3>
+            <p>
+              При використанні десктопного ПК або ноутбука у користувача є миша з точним курсором, а
+              у користувачів смартфонів – тільки їхні пальці (за рідкісним винятком використання
+              стилуса). Це означає, що треба унеможливити натискання неправильного посилання або
+              кнопки. Для цього дотримуйтеся таких рекомендацій: мінімальний розмір клікабельних
+              елементів – 26 px, оптимальний – 40-44 px, а відступи навколо них – не менші ніж 10
+              px.
+            </p>
+          </article>
+          <a href="#" class="scroll-to-top">&uarr; Вгору</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="works">
+      <div class="container flex-box--nine">
+        <div class="flex-box">
+          <div class="logo-footer">
+            <div class="logo--footer-web">
+              <a class="logo__web" href="">Mobile<span class="logo--white">Mastery</span></a>
+            </div>
+            <address>
+              <ul class="mail-phone-footer list">
+                <li class="adress mail-phone-footer__item">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="mailto:zltfefelova@gmail.com"
+                    >zltfefelova@gmail.com</a
+                  >
+                </li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="tel:+380668564237">+38 066 856 42 37</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div>
+            <h2 class="header-footer header-footer__follow">ПРИЄДНУЙТЕСЯ</h2>
+            <ul class="list card-set card-set__follow-buttons">
+              <li class="card-set__icons-footer card-set--marg-icons">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2 class="header-footer header-footer--centre">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+          <div class="main-nav">
+            <input
+              class="main-nav-footer__email"
+              type="email"
+              name="mail"
+              id="email"
+              placeholder="E-mail"
+            />
+            <div class="">
+              <button class="button-footer main-nav">
+                Підписатися
+                <svg class="button-footer__logo" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/scroll-up.js"></script>
+    <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
+
+          e.currentTarget.reset();
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header-border">
+      <div class="container logo">
+        <nav class="logo">
+          <a class="logo__web" href="/">Mobile<span class="logo--black">Mastery</span></a>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./academy.html">Академія</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./cards.html">Картки</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link site-nav__link--current" href="">Блог</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./videoclasses.html">Уроки</a>
+              </li>
+            </ul>
+
+            <ul class="mobile-win-mail list">
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link mobile-win-mail--phone" href="tel:+380668564237"
+                  >+38 066 856 42 37</a
+                >
+              </li>
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link" href="mailto:zltfefelova@gmai.com"
+                  >zltfefelova@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="social-media list">
+              <li class="social-media__item">
+                <a class="social-media__link" href="">Instagram</a>
+              </li>
+              <li class="social-media__item"><a class="social-media__link" href="">Twitter</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Facebook</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Linkedln</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <ul class="mail-phone-header list">
+          <li class="mail-phone-header__item">
+            <a
+              class="mail-phone-header__link mail-phone-header__icons"
+              href="mailto:zltfefelova@gmail.com"
+            >
+              <svg class="mail-phone-header__first-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope-hover"></use>
+              </svg>
+              zltfefelova@gmail.com
+            </a>
+          </li>
+          <li class="mail-phone-header__item">
+            <a class="mail-phone-header__link mail-phone-header__icons" href="tel:+380668564237">
+              <svg class="mail-phone-header__first-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 066 856 42 37
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="icon-close" href="./images/icons.svg#close"></use>
+            <use class="icon-menu" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section padding-for-blog">
+        <div class="container">
+          <h1 hidden>Блог</h1>
+          <article>
+            <header>
+              <h2>
+                <a class="divide-title" href="./article1.html"
+                  >Mobile‌ ‌First‌ ‌Design‌ ‌при‌ ‌створенні‌ ‌сайтів</a
+                >
+              </h2>
+              <p><time datetime="2023-04-14T10:30:00Z">14 апреля 2023, 10:30</time></p>
+            </header>
+            <p>
+              Напевно, багато хто пам'ятає свій перший кнопковий мобільний телефон: після кожного
+              входу в браузер доводилось із хвилюванням перевіряти залишок коштів на рахунку.
+              Спочатку мобільний інтернет був дорогим, незручним у використанні та вкрай обмеженим у
+              можливостях. Сьогодні більше ніж 50% усього інтернет-трафіку припадає на сеанси зі
+              смартфонів...<a class="alink" href="./article1.html">Читати далі</a>
+            </p>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a class="divide-title" href="./article2.html"
+                  >У чому різниця між адаптивним дизайном та Mobile First?</a
+                >
+              </h2>
+              <p><time datetime="2023-04-12T14:15:00Z">12 апреля 2023, 14:15</time></p>
+            </header>
+            <p>
+              Кожен із цих підходів може забезпечити власникам мобільних пристроїв комфортну роботу
+              з вашим сайтом. Щоб не заплутатися в термінах, розглянемо детальніше основні
+              відмінності...<a class="alink" href="./article2.html">Читати далі</a>
+            </p>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a class="divide-title" href="./article3.html">Плюси та мінуси Mobile First</a>
+              </h2>
+              <p><time datetime="2023-04-10T08:00:00Z">10 апреля 2023, 08:00</time></p>
+            </header>
+            <p>
+              Стверджувати, що веб-дизайн за принципом спочатку мобільні підійде для всіх,
+              однозначно не можна. Ця концепція має свої сильні та слабкі сторони, тому кожна
+              компанія має зважити всі “за” та “проти” перед ухваленням рішення про її
+              використання...<a class="alink" href="./article3.html">Читати далі</a>
+            </p>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a class="divide-title" href="./article4.html"
+                  >Особливості проектування сайтів для мобільних пристроїв</a
+                >
+              </h2>
+              <p><time datetime="2023-04-10T08:00:00Z">10 апреля 2023, 08:00</time></p>
+            </header>
+            <p>
+              Невеликі розміри екранів смартфонів диктують свої умови: якщо ви хочете добитися від
+              користувача цільової дії, перш за все потрібно показати елементи, які призведуть до
+              конверсії...<a class="alink" href="./article4.html">Читати далі</a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="works">
+      <div class="container flex-box--nine">
+        <div class="flex-box">
+          <div class="logo-footer">
+            <div class="logo--footer-web">
+              <a class="logo__web" href="">Mobile<span class="logo--white">Mastery</span></a>
+            </div>
+            <address>
+              <ul class="mail-phone-footer list">
+                <li class="adress mail-phone-footer__item">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="mailto:zltfefelova@gmail.com"
+                    >zltfefelova@gmail.com</a
+                  >
+                </li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="tel:+380668564237">+38 066 856 42 37</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div>
+            <h2 class="header-footer header-footer__follow">ПРИЄДНУЙТЕСЯ</h2>
+            <ul class="list card-set card-set__follow-buttons">
+              <li class="card-set__icons-footer card-set--marg-icons">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2 class="header-footer header-footer--centre">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+          <div class="main-nav">
+            <input
+              class="main-nav-footer__email"
+              type="email"
+              name="mail"
+              id="email"
+              placeholder="E-mail"
+            />
+            <div class="">
+              <button class="button-footer main-nav">
+                Підписатися
+                <svg class="button-footer__logo" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
+
+          e.currentTarget.reset();
+        });
+      })();
+    </script>
+  </body>
+</html>
