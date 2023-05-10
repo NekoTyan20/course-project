@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header-border">
+      <div class="container logo">
+        <nav class="logo">
+          <a class="logo__web" href="/">Mobile<span class="logo--black">Mastery</span></a>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./academy.html">Академія</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./cards.html">Картки</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link site-nav__link--current" href="">Блог</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="./videoclasses.html">Уроки</a>
+              </li>
+            </ul>
+
+            <ul class="mobile-win-mail list">
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link mobile-win-mail--phone" href="tel:+380668564237"
+                  >+38 066 856 42 37</a
+                >
+              </li>
+              <li class="mobile-win-mail__item">
+                <a class="mobile-win-mail__link" href="mailto:zltfefelova@gmai.com"
+                  >zltfefelova@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="social-media list">
+              <li class="social-media__item">
+                <a class="social-media__link" href="">Instagram</a>
+              </li>
+              <li class="social-media__item"><a class="social-media__link" href="">Twitter</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Facebook</a></li>
+              <li class="social-media__item"><a class="social-media__link" href="">Linkedln</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <ul class="mail-phone-header list">
+          <li class="mail-phone-header__item">
+            <a
+              class="mail-phone-header__link mail-phone-header__icons"
+              href="mailto:zltfefelova@gmail.com"
+            >
+              <svg class="mail-phone-header__first-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope-hover"></use>
+              </svg>
+              zltfefelova@gmail.com
+            </a>
+          </li>
+          <li class="mail-phone-header__item">
+            <a class="mail-phone-header__link mail-phone-header__icons" href="tel:+380668564237">
+              <svg class="mail-phone-header__first-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 066 856 42 37
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="icon-close" href="./images/icons.svg#close"></use>
+            <use class="icon-menu" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section paddong-for-blog">
+        <div class="container">
+          <h1 hidden>Статья3</h1>
+          <article>
+            <a href="./blog.html" class="back-button">&larr; Назад</a>
+            <header>
+              <h2><a class="divide-title" href="#">Плюси та мінуси Mobile First</a></h2>
+              <p><time datetime="2023-04-10T08:00:00Z">10 апреля 2023, 08:00</time></p>
+            </header>
+            <p>
+              Стверджувати, що веб-дизайн за принципом спочатку мобільні підійде для всіх,
+              однозначно не можна. Ця концепція має свої сильні та слабкі сторони, тому кожна
+              компанія має зважити всі “за” та “проти” перед ухваленням рішення про її використання.
+            </p>
+            <h2><a class="divide-title" href="#">Переваги</a></h2>
+            <h3><a class="logo__web" href="#">Зручність для користувача</a></h3>
+            <p>
+              Жодних дрібних шрифтів, обрізаних картинок та недоречного масштабування сторінок. При
+              розробці UX сайту, орієнтованого на мобільні пристрої, пріоритет надається зручності
+              дій на невеликому екрані. Шлях користувача продумується з урахуванням усіх обмежень,
+              які можуть виникнути у мобільній версії сайту. <br /><br />
+              Постійне підвищення конверсії та утримання клієнтів – турбота кожної компанії.
+              Позитивний досвід взаємодії з продуктом на всіх пристроях сприяє досягненню цих цілей
+              нарівні з високим рівнем сервісу та якості послуг, а також грамотною комунікаційною
+              стратегією . За статистикою, якщо веб-сайт не оптимізований для мобільного телефону,
+              50% користувачів менше відвідуватимуть його, навіть якщо їм подобається продукт або
+              контент.
+            </p>
+            <h3><a class="logo__web" href="#">Швидке завантаження сторінок</a></h3>
+            <p>
+              Одна-дві секунди – стільки часу більшість людей готові чекати так званого «першого
+              відтворення контенту» (First contentful paint, FCP). Навіть якщо користувач зацікавив
+              опис сторінки в пошуковій видачі, є ризик, що він залишить сайт, який довго
+              завантажується.
+            </p>
+            <div class="bordered">
+              <p class="quote-item-title">
+                Згідно з нашим дослідженням , якщо завантаження триває більше 3 секунд, ймовірність
+                відмови підвищується на 32%, а при очікуванні понад 5 секунд – на 90%, –<br />
+              </p>
+
+              <p class="quote-item"><q>АДеніел Ан, глобальний менеджер з продуктів Google</q></p>
+            </div>
+            <p>
+              Сторінки, які одразу оптимізовані під мобільні пристрої, завантажуються швидше, ніж
+              адаптивні. Легкість сайту, спроектованого за принципом Mobile First, забезпечує:
+            </p>
+            <ul style="list-style-type: circle">
+              <li>розміщення лише найважливішого контенту;</li>
+              <li>використання зображень без втрати якості, але меншого розміру;</li>
+              <li>
+                відсутність громіздкого коду, який виходить за рахунок зміни розмірів елементів
+                сайту за допомогою CSS та безлічі медіазапитів;
+              </li>
+              <li>
+                виключення можливих "милиць", які можуть застосовувати програмісти для адаптації.
+              </li>
+            </ul>
+            <p>
+              Для більшості країн 5G є поки що лише темою для гарячих суперечок та жартів в
+              інтернеті. Навіть сьогодні на карті світу залишається багато місць, де іноді важко
+              спіймати 4G чи хоча б 3G. Уявіть, наскільки можна збільшити охоплення аудиторії,
+              забезпечивши швидке завантаження сайту навіть за низької швидкості підключення.
+            </p>
+            <h3><a class="logo__web" href="#">Пріоритет у ранжируванні пошуковими системами</a></h3>
+            <p>
+              Google задав вектор проектування веб-сайтів у бік mobile-friendly ще у 2010 році. Тоді
+              компанія оголосила , що підходитиме до своїх продуктів з позиції «мобільні пристрої
+              насамперед». А через шість років було запущено алгоритм Mobile First Index, який
+              аналізує сайти щодо зручності використання на мобільних пристроях. Очікується, що
+              незабаром цей пошуковий принцип буде застосований під час ранжування сторінок усіх
+              сайтів. <br /><br />
+              Чи означає це, що тільки сайти, розроблені за принципом Mobile First можуть
+              претендувати на топові позиції у видачі? Сам Google не наполягає на обов'язковому
+              застосуванні цього підходу. Правильно реалізований адаптивний чи чуйний дизайн також
+              задовольнить індексування із пріоритетом мобільного контенту. Однак "правильно" тут –
+              ключове слово. Це означає, що необхідно проводити діагностику адаптивної версії сайту
+              на відповідність до алгоритму Mobile First Index. І тому існує кілька способів. Одні з
+              найшвидших – сервіси від Google Mobile-Friendly Test та Search Console.
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/mobile_test.png" alt="" width="1170" />
+              <p class="img-setion__text">
+                Перевірка оптимізації сторінки на Mobile-Friendly Test
+              </p> </a
+            ><br /><br />
+            <p>
+              Сайти, створені за принципом Mobile First, таких перевірок не потребують і за
+              замовчуванням отримують пріоритет. А оскільки такі ресурси відрізняються високою
+              швидкістю завантаження сторінок, це додає їм очок у seo-просування.<br /><br />
+              У той же час, деякі компанії сьогодні все менше покладаються на видачу в пошукових
+              системах. Для просування вони додатково використовують інструменти контекстної
+              реклами, реферальних програм, ремаркетингу тощо. Не виключено, що для них такі
+              привілеї не стануть важливим аргументом при виборі концепції розробки сайту.
+            </p>
+            <h2><a class="divide-title" href="#">Недоліки</a></h2>
+            <h3><a class="logo__web" href="#">Тривалість та вартість розробки</a></h3>
+            <p>
+              Одна з основних причин, через яку підхід поки що не набув масштабної популярності –
+              значний обсяг робіт. Дизайнерам та розробникам доводиться готувати не одну версію
+              макета кожної унікальної сторінки, а кілька: для мобільних, планшетних та настільних
+              пристроїв з різними параметрами екрану. При цьому треба пам'ятати про старі аксесуари
+              з невеликою роздільною здатністю і нестандартними характеристиками. А при виході нових
+              моделей з діагоналлю, що раніше не використовується, доведеться готувати ще один
+              варіант макета. <br /><br />
+              У результаті проект створення сайту стає більш дорогим і тривалим у реалізації
+              порівняно зі звичним методом Desktop First. Однак якщо не розглядати витрати та
+              прибуток у короткостроковій перспективі, через час можна відчути реальний зиск від
+              такого вкладення. Чи є сенс робити сайт швидко та недорого, якщо користувачі
+              загубляться на його сторінках у морі другорядних елементів чи дратуватимуться від
+              незручного інтерфейсу та повільного завантаження на мобільному? Очевидно, що ні.
+            </p>
+            <div class="bordered">
+              <p class="quote-item-title">
+                Усунення проблеми на етапі верстки сайту коштує в 10 разів дорожче, ніж її
+                виправлення під час створення прототипу, і в 100 разів більше, якщо намагатися
+                знайти рішення, коли продукт вже готовий.
+              </p>
+            </div>
+            <h3><a class="logo__web" href="#">Обмеженість візуального оформлення</a></h3>
+            <p>
+              Мінімалізм – у тренді. Чи надовго? Щоб відповідати всім принципам Mobile First,
+              найчастіше доводиться відмовлятися від креативних анімацій, красивих, але
+              великовагових відео та інших вау-ефектів. Якщо на мобільному простий інтерфейс сайту
+              дозволяє користувачеві зосередитися на цільовій дії, то на робочому столі така версія
+              може здатися дещо скромною і нудною. <br /><br />
+              Зрозуміти, чи варто гнатися за креативами, допоможе аналіз конкурентів та вивчення
+              вашої цільової аудиторії. Наприклад, сайт Instagram залишився на рівні Mobile Only –
+              його десктопна версія практично така сама, як і для мобільних телефонів. Чи це
+              влаштовує користувачів? Судячи з популярності сервісу, цілком. Instagram намагається
+              не відставати від інших популярних соціальних мереж і додає нові функції, але в плані
+              дизайну на робочому столі залишається незмінним уже багато років.
+            </p>
+            <a class="list-button img-section__what-we-do">
+              <img src="./images/999.png" alt="" width="1170" />
+              <p class="img-setion__text">Десктопна та мобільна версія сайту Instagram</p> </a
+            ><br /><br />
+          </article>
+          <a href="#" class="scroll-to-top">&uarr; Вгору</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="works">
+      <div class="container flex-box--nine">
+        <div class="flex-box">
+          <div class="logo-footer">
+            <div class="logo--footer-web">
+              <a class="logo__web" href="">Mobile<span class="logo--white">Mastery</span></a>
+            </div>
+            <address>
+              <ul class="mail-phone-footer list">
+                <li class="adress mail-phone-footer__item">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="mailto:zltfefelova@gmail.com"
+                    >zltfefelova@gmail.com</a
+                  >
+                </li>
+                <li class="mail-phone-footer__item">
+                  <a class="mail-phone-footer__link" href="tel:+380668564237">+38 066 856 42 37</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div>
+            <h2 class="header-footer header-footer__follow">ПРИЄДНУЙТЕСЯ</h2>
+            <ul class="list card-set card-set__follow-buttons">
+              <li class="card-set__icons-footer card-set--marg-icons">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#Facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="card-set__icons-footer">
+                <a href="">
+                  <svg class="card-set__icon card-set--color-icons" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2 class="header-footer header-footer--centre">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+          <div class="main-nav">
+            <input
+              class="main-nav-footer__email"
+              type="email"
+              name="mail"
+              id="email"
+              placeholder="E-mail"
+            />
+            <div class="">
+              <button class="button-footer main-nav">
+                Підписатися
+                <svg class="button-footer__logo" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/scroll-up.js"></script>
+    <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
+
+          e.currentTarget.reset();
+        });
+      })();
+    </script>
+  </body>
+</html>
